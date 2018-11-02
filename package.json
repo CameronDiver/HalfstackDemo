@@ -1,0 +1,23 @@
+{
+  "name": "halfstack-demo",
+  "version": "1.0.0",
+  "description": "React to music with the raspberry pi!",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronDiver/halfstack-demo.git"
+  },
+  "author": "Cameron Diver & Theodor Gherzen (cameron@balena.io theodor@balena.io)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CameronDiver/halfstack-demo/issues"
+  },
+  "homepage": "https://github.com/CameronDiver/halfstack-demo#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "rpi-ws281x-native": "^0.9.0"
+  }
+}
