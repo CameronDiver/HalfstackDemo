@@ -4,7 +4,7 @@
   "description": "React to music with the raspberry pi!",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./lib/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/CameronDiver/halfstack-demo#readme",
   "dependencies": {
+    "audio-render": "^2.0.1",
+    "cd-rpi-rgb-led-matrix": "^0.3.2",
+    "d3-color": "^1.2.3",
+    "d3-interpolate": "^1.3.2",
     "lodash": "^4.17.11",
-    "rpi-ws281x-native": "^0.9.0"
+    "mic": "^2.1.2"
   }
 }
